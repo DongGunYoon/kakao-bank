@@ -96,7 +96,7 @@
 
 .copyright {
   font-size: rem(12);
-  color: #888;
+  color: $gray;
 
   @include mobile {
     display: block;
@@ -125,7 +125,7 @@
     display: block;
     width: 24px;
     height: 24px;
-    background-image: url(../../images/icon-sprite.png);
+    background-image: url(../images/icon-sprite.png);
 
     &.facebook {
       background-position: 0 -90px;
